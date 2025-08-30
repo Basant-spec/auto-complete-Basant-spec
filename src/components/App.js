@@ -17,7 +17,7 @@ const App = () => {
       const filtered = fruits.filter((fruit) =>
         fruit.toLowerCase().includes(value.toLowerCase())
       );
-      setSuggestions(filtered);
+      setSuggestions(filtered);g
     }, 200); // small delay so UI feels async
   };
 
